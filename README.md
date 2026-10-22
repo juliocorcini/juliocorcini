@@ -10,14 +10,19 @@ I use AI as an engineering tool (Cursor, Claude) with structured specs, rules, a
 
 🎪 **[FestPilot](https://github.com/juliocorcini/festival-copilot)** — Festival companion app. Resolve lineup clashes with walking time between stages, coordinate groups with live presence. Cloudflare D1, Durable Objects, Hono, React. [Live →](https://festpilot.pages.dev)
 
+💬 **[GroupResume](https://github.com/juliocorcini/groupResume)** — WhatsApp group chat summarizer. Drag-and-drop a chat export, pick a date, get AI-powered summaries at 5 detail levels with 3 privacy modes. Installable PWA, Groq AI. [Live →](https://group-resume.vercel.app)
+
+🤖 **[GroupResume Companion](https://github.com/juliocorcini/groupResume-companion)** — Desktop companion that connects directly to WhatsApp. Bot with group commands, interactive DM, voice-note-as-command, multi-audio transcription (Whisper), smart humor detection in summaries, auto-summary scheduler, and system tray integration. Node.js, TypeScript, whatsapp-web.js.
+
 🧠 **[Memory AI](https://github.com/juliocorcini/memory-ai)** — Voice-first Android memory assistant with on-device AI, Room, Jetpack Compose, and local-first privacy.
 
 ### Tech I work with
 
 **Frontend:** React, TypeScript, Tailwind CSS, Vite, PWA, Capacitor  
-**Backend:** Cloudflare Workers, Durable Objects, D1, KV, R2, Hono  
+**Backend:** Cloudflare Workers, Durable Objects, D1, KV, R2, Hono, Express, Node.js  
 **Mobile:** Android (Kotlin, Jetpack Compose), Capacitor  
 **Data:** IndexedDB/Dexie, SQLite, Room  
 **AI/ML:** Groq (Llama, Whisper), Gemma, on-device inference  
-**Infra:** Cloudflare Pages, WebRTC, E2E encryption (AES-GCM), FCM, Web Push  
+**Automation:** whatsapp-web.js, Puppeteer, WebSocket  
+**Infra:** Cloudflare Pages, Vercel, WebRTC, E2E encryption (AES-GCM), FCM, Web Push  
 **Testing:** Vitest, Playwright, React Testing Library  
